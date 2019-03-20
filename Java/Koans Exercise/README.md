@@ -1,5 +1,4 @@
 # cis301-fall2018
-CIS301 Fall 2018
 
 ## Koans Assignment
 
