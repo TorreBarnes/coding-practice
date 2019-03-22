@@ -5,12 +5,10 @@ using namespace std;
 
 bool isValid(string file_name,string line){
 
-    bool valid = false;
-    int i = 0;
-    //file_name = file_name + ".txt";
-
-        //for(int i = 0; i<line.length();i++){
-            //cout<< line[i] << ' ' << '\n';
+    bool valid = false; //flag
+    int i = 0; //index
+    
+    //Move position by position through the string while changing the flag to true or false depending on the criteria read
             if(line[0] == '+'||line[0]=='-'){
                 valid = false;
                 i++;
